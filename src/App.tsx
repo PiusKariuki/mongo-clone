@@ -1,13 +1,15 @@
+import Events from "modules/events/Events";
+import Topbar from "modules/topbar/Topbar";
 import React from "react";
 
-function App() {
+
+const App: React.FC = ():JSX.Element => {
   return (
-    <div className="flex justify-center">
-      <h1 className="font-bold text-2xl text-blue-900">
-        React, Typescript and Tailwind with Vitejs!
-      </h1>
+    <div className="flex flex-col m-0">
+      <Events />
+      <Topbar />
     </div>
   );
-}
+};
 
 export default App;
