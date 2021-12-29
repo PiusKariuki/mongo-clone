@@ -3,7 +3,7 @@ import React from "react";
 const Events: React.FC = (): JSX.Element => {
   return (
     <div
-      className="w-screen h-[40px] md:h-[40px] px-[15px] bg-[#11614a] 
+      className="w-screen h-[40px] md:h-[60px] px-[15px] bg-green-60 
     flex items-center justify-center"
     >
       <p className="text-white text-[14px] md:text-[16px] align-middle  tracking-[1px] ">
