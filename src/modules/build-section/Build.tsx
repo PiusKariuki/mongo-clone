@@ -21,7 +21,7 @@ const Build: React.FC = (): JSX.Element => {
 
         <p className="text-white leading-tight md:leading-[5rem] text-[40px] md:text-[64px] text-center md:text-left px-[24px] ">Build faster.</p>
         <p className="text-white leading-tight md:leading-[5rem] text-[40px] md:text-[64px] text-center md:text-left px-[24px] ">Build smarter.</p>
-        <p className="text-base md:text-2xl text-white font-medium text-center md:text-left mt-[1.3rem]  px-[24px] ">
+        <p className="text-base md:text-2xl text-white font-medium text-center md:text-left mt-[1.3rem]  md:px-[24px] ">
           Get your ideas to market faster with an application data platform
           built on the leading modern database. Support transactional, search,
           analytics, and mobile use cases while using a common query interface
