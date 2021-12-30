@@ -66,7 +66,7 @@ const Trustees: React.FC = (): JSX.Element => {
          md:gap-[48px]"
       >
         {/* ......................................................... */}
-        <div className="flex flex-col  md:py-[80px] self-center">
+        <div className="flex flex-col  pt-[64px] md:pt-[0px] self-center">
           <img
             src="/img/faster.svg"
             alt="faster"
@@ -84,7 +84,7 @@ const Trustees: React.FC = (): JSX.Element => {
           </p>
         </div>
         {/* .............................................................. */}
-        <div className="flex flex-col  py-[80px] self-center">
+        <div className="flex flex-col pt-[64px] md:pt-[0px] self-center">
           <img
             src="/img/scale.svg"
             alt="faster"
@@ -102,7 +102,7 @@ const Trustees: React.FC = (): JSX.Element => {
           </p>
         </div>
         {/* .............................................................. */}
-        <div className="flex flex-col  py-[80px] self-center">
+        <div className="flex flex-col pt-[64px] md:pt-[0px] self-center">
           <img
             src="/img/security.svg"
             alt="faster"
