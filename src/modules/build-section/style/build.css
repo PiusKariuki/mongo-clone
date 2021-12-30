@@ -53,3 +53,38 @@
   height: 40px;
   width: 40px;
 }
+
+#parent {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+
+@media  screen and  (min-width: 1024px) {
+  #parent {
+    padding-top: 112px;
+    padding-bottom: 112px;
+    padding-right: 48px;
+    padding-left: 48px;
+  }
+
+}
+@media screen and (min-width: 768px) {
+  #parent {
+    padding-top: 112px;
+    padding-bottom: 112px;
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+}
+@media screen and (min-width: 460px) {
+  #parent {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+
+}
