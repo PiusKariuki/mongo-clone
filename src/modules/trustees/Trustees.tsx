@@ -65,7 +65,7 @@ const Trustees: React.FC = (): JSX.Element => {
         px-[24px]  pb-[24px] md:px-[32px] lg:px-[48px] gap-[16px] 460:gap-[32px]
          md:gap-[48px]"
       >
-          {/* ......................................................... */}
+        {/* ......................................................... */}
         <div className="flex flex-col  md:py-[80px] self-center">
           <img
             src="/img/faster.svg"
