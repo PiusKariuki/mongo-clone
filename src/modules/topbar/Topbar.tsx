@@ -2,7 +2,10 @@ import React from "react";
 
 const Topbar: React.FC = (): JSX.Element => {
   return (
-    <nav className="w-screen h-[56px] md:h-[66px] bg-white flex flex-row justify-around md:py-[2.5rem]">
+    <nav
+      className="w-screen h-[56px] md:h-[66px] bg-white flex flex-row 
+    justify-around md:py-[2.5rem] sticky top-0"
+    >
       <img
         src="/img/mongo.png"
         alt=""
@@ -20,7 +23,6 @@ const Topbar: React.FC = (): JSX.Element => {
             alt=""
             className="flex w-[1rem] h-[1rem]  self-center ml-0 mr-[30px]"
           />
-
         </>
       ) : (
         <>
