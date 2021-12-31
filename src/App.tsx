@@ -9,7 +9,7 @@ import React from "react";
 
 const App: React.FC = ():JSX.Element => {
   return (
-    <div className="flex flex-col m-0">
+    <div className="flex flex-col m-0 overflow-x-hidden">
       <Events />
       <Topbar />
       <Build />
