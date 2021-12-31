@@ -44,7 +44,7 @@ const Cloud: React.FC = (): JSX.Element => {
                 alt="atlas"
                 className="self-start pb-[24px] lg:pb-[56px]"
               />
-              <p className="text-green-60 text-[24px] leading-[16px]">ATLAS</p>
+              <p className="text-green-60 text-[16px] leading-[16px]">ATLAS</p>
               <p className="text-blue-80 text-[24px] leading-[32px] font-[600]">
                 Multi-cloud application data platform
               </p>
@@ -76,7 +76,7 @@ const Cloud: React.FC = (): JSX.Element => {
           >
             <img src="/img/realm.svg" alt="realm" className="self-start" />
             <div className=" flex flex-col  flex-nowrap gap-[24px]">
-              <p className="text-green-60 text-[24px] leading-[16px]">REALM</p>
+              <p className="text-green-60 text-[16px] leading-[16px]">REALM</p>
               <p className="text-blue-80 text-[24px] leading-[32px] font-[600]">
                 Work with data at the edge
               </p>

@@ -23,7 +23,7 @@ const Part2 = () => {
               alt="atlas"
               className="self-start pb-[24px] lg:pb-[56px]"
             />
-            <p className="text-green-60 text-[24px] leading-[16px]">
+            <p className="text-green-60 text-[16px] leading-[16px]">
               COMMUNITY EDITION
             </p>
             <p className="text-blue-80 text-[24px] leading-[32px] font-[600]">
@@ -55,7 +55,7 @@ const Part2 = () => {
               alt="atlas"
               className="self-start pb-[24px] lg:pb-[56px]"
             />
-            <p className="text-green-60 text-[24px] leading-[16px]">
+            <p className="text-green-60 text-[16px] leading-[24px]">
               ENTERPRISE ADVANCED
             </p>
             <p className="text-blue-80 text-[24px] leading-[32px] font-[600]">
