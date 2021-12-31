@@ -3,7 +3,8 @@ import "./style/build.css";
 
 const Build: React.FC = (): JSX.Element => {
   return (
-    <div id="parent" className=" bg-green-80  flex flex-col  md:flex-row  md:rounded-bl-[12rem] md:rounded-br-[50rem]">
+    <div id="parent" className="w-screen bg-green-80  flex flex-col  md:flex-row 
+     md:rounded-bl-[12rem] md:rounded-br-[50rem] md:overflow-x-clip lg:overflow-x-visible">
       <div className="flex flex-col mt-[3rem] md:mt-[0rem]">
         <div className="flex mb-[3rem] md:mb-[9rem] mx-[1.5rem]">
           <p
@@ -38,7 +39,7 @@ const Build: React.FC = (): JSX.Element => {
         </div>
       </div>
 
-      <img src="/img/build.svg" alt="" className="  self-center md:px-[24px] mt-[2rem]" />
+      <img src="/img/build.svg" alt="" className=" self-center md:px-[24px] mt-[2rem]" />
     </div>
   );
 };

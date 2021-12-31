@@ -1,4 +1,5 @@
 import Build from "modules/build-section/Build";
+import Cloud from "modules/cloud/Cloud";
 import Events from "modules/events/Events";
 import Topbar from "modules/topbar/Topbar";
 import Trustees from "modules/trustees/Trustees";
@@ -13,6 +14,7 @@ const App: React.FC = ():JSX.Element => {
       <Topbar />
       <Build />
       <Trustees />
+      <Cloud />
     </div>
   );
 };

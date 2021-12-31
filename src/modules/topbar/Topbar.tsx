@@ -11,7 +11,7 @@ const Topbar: React.FC = (): JSX.Element => {
         alt=""
         className="w-[138px] h-[36px] ml-[30px] self-center"
       />
-      {window.innerWidth < 500 ? (
+      {window.innerWidth < 800 ? (
         <>
           <img
             src="/img/search.png "
