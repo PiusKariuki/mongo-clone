@@ -52,10 +52,10 @@ const Trustees: React.FC = (): JSX.Element => {
         </p>
         <p
           className="text-center font-[600] text-blue-80 text-[18px] leading-[32px] 
-          lg:text-[20px]  lg:leading-[32px]"
+          lg:text-[20px]  lg:leading-[32px] md:px-[240px]"
         >
-          Our guiding principle is to help developers solve <br /> their data
-          challenges. Here’s what you can do <br /> with MongoDB.
+          Our guiding principle is to help developers solve  their data
+          challenges. Here’s what you can do  with MongoDB.
         </p>
       </div>
 
