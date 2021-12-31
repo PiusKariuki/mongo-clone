@@ -1,4 +1,5 @@
 import React from "react";
+import Part2 from "./components/Part2";
 
 const Cloud: React.FC = (): JSX.Element => {
   return (
@@ -37,10 +38,13 @@ const Cloud: React.FC = (): JSX.Element => {
             className="flex flex-col flex-nowrap lg:flex-row  
           space-between gap-[72px] lg:gap-[80px] self-center"
           >
-            
             <div className=" flex flex-col  flex-nowrap gap-[24px] ">
-              <img src="/img/atlas.svg" alt="atlas" className="self-start pb-[24px] lg:pb-[56px]" />
-              <p className="text-green-60 text-[24px] leading-[16px]">Atlas</p>
+              <img
+                src="/img/atlas.svg"
+                alt="atlas"
+                className="self-start pb-[24px] lg:pb-[56px]"
+              />
+              <p className="text-green-60 text-[24px] leading-[16px]">ATLAS</p>
               <p className="text-blue-80 text-[24px] leading-[32px] font-[600]">
                 Multi-cloud application data platform
               </p>
@@ -72,13 +76,14 @@ const Cloud: React.FC = (): JSX.Element => {
           >
             <img src="/img/realm.svg" alt="realm" className="self-start" />
             <div className=" flex flex-col  flex-nowrap gap-[24px]">
-              <p className="text-green-60 text-[24px] leading-[16px]">Realm</p>
+              <p className="text-green-60 text-[24px] leading-[16px]">REALM</p>
               <p className="text-blue-80 text-[24px] leading-[32px] font-[600]">
                 Work with data at the edge
               </p>
               <p className="text-black-70 text-[18px] leading-[32px]">
-                A highly performant mobile database, with native edge-to-cloud data sync.
-                Use Realm to build offline-first apps in a fraction of the time
+                A highly performant mobile database, with native edge-to-cloud
+                data sync. Use Realm to build offline-first apps in a fraction
+                of the time
               </p>
               <p className="text-blue-80 text-[16px] leading-[32px]">
                 Learn more
@@ -88,6 +93,17 @@ const Cloud: React.FC = (): JSX.Element => {
         </div>
       </div>
       {/* ................................................................... */}
+      <div className="px-[24px] py-[24px] md:px-[32px] lg:px-[48px] flex flex-col gap-[24px] w-full">
+        <p
+          className="text-blue-80 text-[32px]
+         leading-[40px] lg:text-[56px] lg:leading-[64px] text-center font-[600]"
+        >
+          Self-managed in any environment
+        </p>
+        <p className="text-blue-80 text-[18px] leading-[32px] lg:text-[20px] text-center font-[400]">
+          Run MongoDB anywhere, from your laptop to your data center</p>
+      </div>
+      <Part2 />
     </div>
   );
 };
