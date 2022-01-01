@@ -5,13 +5,13 @@ import Topbar from "modules/topbar/Topbar";
 import Trustees from "modules/trustees/Trustees";
 import React from "react";
 
-
-
-const App: React.FC = ():JSX.Element => {
+const App: React.FC = (): JSX.Element => {
   return (
-    <div className="flex flex-col m-0 overflow-x-hidden">
+    <div className="flex flex-col m-0 overflow-x-hidden relative">
       <Events />
-      <Topbar />
+      <div className="relative">
+        <Topbar />
+      </div>
       <Build />
       <Trustees />
       <Cloud />

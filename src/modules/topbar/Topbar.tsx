@@ -1,18 +1,19 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 
 const Topbar: React.FC = (): JSX.Element => {
-  const [width,setWidth] = useState<number>(0);
+  const [width, setWidth] = useState<number>(0);
   const resizeHandler = () => {
     setWidth(window.innerWidth);
-  }
-  useEffect(()=>{
+  };
+  useEffect(() => {
     window.onresize = resizeHandler;
-  },[])
+    resizeHandler();
+  }, []);
 
   return (
     <nav
       className="w-screen h-[56px] md:h-[66px] bg-white flex flex-row 
-    justify-around md:py-[2.5rem] sticky top-0"
+    justify-around md:py-[2.5rem]"
     >
       <img
         src="/img/mongo.png"

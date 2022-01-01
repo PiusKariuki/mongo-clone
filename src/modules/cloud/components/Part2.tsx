@@ -5,7 +5,7 @@ const Part2 = () => {
     <div
       className="px-[24px] pt-[48px] pb-[56px] md:px-[32px] md:pt-[64px] md:pb-[96px]
         lg:px-[48px] flex flex-col flex-nowrap lg:flex-row 
-        gap-[16px] 460:gap-[32px] md:gap-[48px]"
+        gap-[16px] 460:gap-[32px] md:gap-[48px] self-center"
     >
       {/*card1 */}
       <div
