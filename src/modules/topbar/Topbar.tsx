@@ -1,6 +1,14 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 
 const Topbar: React.FC = (): JSX.Element => {
+  const [width,setWidth] = useState<number>(0);
+  const resizeHandler = () => {
+    setWidth(window.innerWidth);
+  }
+  useEffect(()=>{
+    window.onresize = resizeHandler;
+  },[])
+
   return (
     <nav
       className="w-screen h-[56px] md:h-[66px] bg-white flex flex-row 
@@ -11,7 +19,7 @@ const Topbar: React.FC = (): JSX.Element => {
         alt=""
         className="w-[138px] h-[36px] ml-[30px] self-center"
       />
-      {window.innerWidth < 800 ? (
+      {width < 800 ? (
         <>
           <img
             src="/img/search.png "
