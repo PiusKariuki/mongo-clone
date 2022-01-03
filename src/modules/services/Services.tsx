@@ -42,10 +42,10 @@ const Services: React.FC = (): JSX.Element => {
             fill-blue-80  w-[10rem] ">
               Learn More</button>
         </div>
-        <img src="/img/Finance_1.svg" alt="" className="order-1 md:order-2 md:w-[100%]"/>
+        <img src="/img/Finance_1.svg" alt="" className="order-1 md:order-2 md:w-[100%] mb-[4rem]"/>
       </div>
       {/*  */}
-      
+
     </div>
   );
 };
