@@ -17,7 +17,10 @@ const Part2 = () => {
           className="flex flex-col flex-nowrap lg:flex-row 
           space-between gap-[72px] lg:gap-[80px] self-center"
         >
-          <div className=" flex flex-col  flex-nowrap gap-[24px] ">
+
+
+
+          <div className="flex flex-col  flex-nowrap gap-[24px] ">
             <img
               src="/img/advanced.svg"
               alt="atlas"
@@ -39,6 +42,9 @@ const Part2 = () => {
           </div>
         </div>
       </div>
+
+
+
       {/*card2 */}
       <div
         className="flex flex-col lg:flex-row space-between flex-nowrap rounded-[40px]
