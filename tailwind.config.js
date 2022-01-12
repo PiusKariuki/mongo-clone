@@ -4,7 +4,7 @@ module.exports = {
     screens: {
       little: "200px",
       xs: "300px",
-      460: "460px",
+      425: "425px",
       tab: "540px",
       sm: "640px",
       md: "768px",
@@ -37,7 +37,9 @@ module.exports = {
         },
       },
       backgroundImage: {
-        "build": "url('/img/build.svg')",
+        "mongo": "url('/img/mongo.jpg')",
+        "menu": "url('/img/menu.png')",
+        "search": "url('/img/search.png')",
       }
     },
   },
