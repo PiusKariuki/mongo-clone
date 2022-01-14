@@ -1,0 +1,14 @@
+{
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"eslint.format.enable": true,
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"workbench.colorTheme": "Monokai++",
+	"prettier.jsxBracketSameLine": true,
+	"prettier.useTabs": true,
+	"prettier.arrowParens": "avoid",
+	"prettier.enableDebugLogs": true
+}
